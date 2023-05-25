@@ -1,0 +1,6 @@
+n1 = input('Digite algo')
+print('{} é do tipo' .format(n1), type(n1))
+print('{} é somente espaço?'.format(n1), n1.isspace())
+print('{} é somente letras maiusculas ?' .format(n1), n1.isupper())
+print('{} é somente letra minusculas?' .format(n1), n1.islower())
+print('{} é somente números?' .format(n1), n1.isnumeric())
